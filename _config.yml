@@ -1,29 +1,30 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
-header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+title: Hernandez's Blog
+SEOTitle: Hernandez's Blog
+header-img: https://bingw.jasonzeng.dev/?index=random 
+#header-img: https://api.vvhan.com/api/view
+email: Alan_Huang.K.P@Outlook.com
+#description: "Things that can make you miserable will surely make you strong, grow up, and must experience what others can't!"
+keyword: "Python Pytorch Matlab CV Deeplearning 深度学习"
+url: "http://Alan-HuangKP.github.io/."          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/Alan-HuangKP/Alan-HuangKP.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "我们为什么要说“别急”？别急是一种态度，一种张弛有度，一种不急不躁，一种泰然自若。遇到羞辱急于还击，是莽夫，“别急”教我们谦让三分、以理服人；遇到挫折羞愤不已，是愚夫，“别急”教我们另辟蹊径、以智取胜。“别急”体现的是中华儒家的中庸之道，体现的是虚怀若谷、谦逊祥和的人生哲理，所谓“心静即声淡，其间无古今”，学会“别急”，方能成长，方能成熟，方能于世间百态中左右逢源、处变不惊。"
+sidebar-avatar: "https://www.loliapi.com/acg/pp/"
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+#weibo_username:     6131084360
+#zhihu_username:     ren-qing-zi-ji-9
+github_username:    Alan-HuangKP
+# facebook_username:  baiying.qiu.7
+#jianshu_username:   4365773d2dd5
+#twitter_username:   GitHubGanKai
 
 
 
@@ -31,6 +32,7 @@ jianshu_username:   e71990ada2fd
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
+# permalink: none
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -57,16 +59,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: GitHubGanKai
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  enable: false    #是否开启Gitalk评论
+  clientID: d2223ef21ecae706fcb4                            #生成的clientID
+  clientSecret: 8fecef465f9f3dc81f11bd98ec59d4644eb9282a    #生成的clientSecret
+  repo: blog    #仓库名称 
+  owner: GitHubGanKai    #github用户名
+  admin: GitHubGanKai
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +76,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: 5b94756de87b260b647aed0a5ca70e7c
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-253082227-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -99,16 +101,18 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Google",
+        href: "http://google.com"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书",
+        href: "http://www.jianshu.com"
     },{
         title: "Apple",
         href: "https://apple.com"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Bilibili",
+        href: "https://bilibili.com/"
     }
 ]
+
+theme: jekyll-theme-hacker

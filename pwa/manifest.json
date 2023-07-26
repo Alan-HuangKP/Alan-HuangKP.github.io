@@ -1,13 +1,13 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "Hernandez Blog",
+  "short_name": "Hernandez Blog",
+  "description": "A personal blog Hernandez engineer",
   "icons": [{
-    "src": "icons/pwa_icon_128.png",
+    "src": "icons/favicon.ico",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/pwa_icon_512.png",
+    "src": "icons/favicon.ico",
     "sizes": "512x512",
     "type": "image/png"
   }],
