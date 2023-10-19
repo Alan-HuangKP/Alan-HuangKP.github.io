@@ -175,7 +175,8 @@ WSL 支持运行想要安装的任意数量的不同 Linux 发行版。 这可�
 
 现在就可使用上方  `cd /mnt/ `命令打开外接USB储存设备的文件了
 <strong>结束上述步骤后，现在正式在WSL2中配置CUDA环境</strong> 
-#2. <strong>在WSL2中配置CUDA环境</strong> 
+
+# 2. <strong>在WSL2中配置CUDA环境</strong> 
 前置任务，在WSL命令行中输入nvidia-smi查看显卡是否被WSL识别 
 
 
