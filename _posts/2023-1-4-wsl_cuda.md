@@ -204,10 +204,12 @@ sudo apt-get install build-essential
 安装好后，将变量添加到bashrc中 
 
     vim ~/.bashrc
+    将下面两行字加入到.bashrc最下方：
     export PATH=/usr/local/cuda/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PAT
 
     同上VIM编辑器操作
+    先按ESC退回到命令模式，输入 :wq 进行保存 
 
     source ~/.bashrc #运行一下
 
